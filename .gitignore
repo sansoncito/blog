@@ -1,4 +1,26 @@
+# Hakyll files and directories to ignore
 _cache
 _site
-dist
 site
+
+
+# Vim files to ignore
+[._]*.s[a-w][a-z]
+[._]s[a-w][a-z]
+*.un~
+Session.vim
+.netrwhist
+*~
+
+# Haskell files and directories to ignore
+dist
+cabal-dev
+*.o
+*.hi
+*.chi
+*.chs.h
+.virthualenv
+.hsenv
+.cabal-sandbox/
+cabal.sandbox.config
+cabal.config
